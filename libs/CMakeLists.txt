@@ -1,3 +1,4 @@
 add_library(vector
-        vector/vector.c
+        vector/int_vector.h
+        vector/int_vector.c
 )
