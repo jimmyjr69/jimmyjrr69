@@ -74,7 +74,7 @@ void pushToIntVector(int_vector* vector, int value) {
 }
 
 int popFromIntVector(int_vector* vector) {
-    int value = *firstInIntVector(vector);
+    int value = *lastInIntVector(vector);
 
     vector->size--;
 

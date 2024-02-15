@@ -1,5 +1,5 @@
-#ifndef LAB14_VECTOR_H
-#define LAB14_VECTOR_H
+#ifndef LAB14_INT_VECTOR_H
+#define LAB14_INT_VECTOR_H
 
 #include <corecrt.h>
 #include <stdbool.h>
@@ -34,4 +34,4 @@ int* firstInIntVector(int_vector* vector);
 
 int* lastInIntVector(int_vector* vector);
 
-#endif //LAB14_VECTOR_H
+#endif //LAB14_INT_VECTOR_H

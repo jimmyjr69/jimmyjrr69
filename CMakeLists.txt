@@ -3,10 +3,10 @@ project(lab_14 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(
-        lab_14 main.c
-        libs/vector/int_vector.h
-        libs/vector/int_vector.c
+add_executable(lab14
+        main.c
+        libs/vector/vector.h
+        libs/vector/vector.c
 )
 
 add_subdirectory(libs)
